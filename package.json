@@ -1,0 +1,21 @@
+{
+  "name": "mic-record",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS=\"./key.json\" && node src/index.js micStreamRecognize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.1",
+    "@google-cloud/storage": "^5.1.2",
+    "@google-cloud/text-to-speech": "^3.0.1",
+    "cleverbot-free": "^1.0.4",
+    "node-audiorecorder": "^2.2.0",
+    "node-record-lpcm16": "^1.0.1",
+    "yargs": "^15.4.1"
+  }
+}
