@@ -10,7 +10,7 @@ const exec = promisify(require("child_process").exec);
 // Creates a client
 const client = new textToSpeech.TextToSpeechClient();
 
-async function tts(text = "TEST") {
+async function tts(text = "no text provided") {
   // Construct the request
   const request = {
     input: { text: text },

@@ -49,9 +49,9 @@ function microphoneStream(encoding, sampleRateHertz, languageCode) {
   const speech = require("@google-cloud/speech");
 
   const config = {
-    encoding: encoding,
-    sampleRateHertz: sampleRateHertz,
-    languageCode: languageCode
+    encoding,
+    sampleRateHertz,
+    languageCode
   };
 
   const request = {
@@ -83,7 +83,7 @@ function microphoneStream(encoding, sampleRateHertz, languageCode) {
   // Start recording and send the microphone input to the Speech API
   recorder
     .record({
-      sampleRateHertz: sampleRateHertz,
+      sampleRateHertz,
       threshold: 0, //silence threshold
       recordProgram: "rec", // Try also "arecord" or "sox"
       silence: "5.0" //seconds of silence before ending
