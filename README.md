@@ -1,5 +1,6 @@
 # VirtualFriend
 Made with Node.JS, Google APIs, Python 3.8 and immense lonelyness. This programming allows you to speeck into your microphone and receive a response (Currently set as male, en-GB but it can be changed)
+It uses [Google Cloud Text to Speech](https://cloud.google.com/text-to-speech), [Google Cloud Seech to Text](https://cloud.google.com/speech-to-text), [node-record-lpcm-16](https://www.npmjs.com/package/node-record-lpcm16) and [playsound](https://pypi.org/project/playsound/)
 
 ## Using it yourself
 - Clone this repository onto your computer
