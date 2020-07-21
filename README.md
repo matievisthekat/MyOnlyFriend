@@ -4,7 +4,7 @@ Made with Node.JS, Google APIs, Python 3.8 and immense lonelyness. This programm
 ## Using it yourself
 - Clone this repository onto your computer
 - Create a file called `key.json` in the root directory
-- Go to https://cloud.google.com/docs/authentication/getting-started, get your credentials and put them in the `kays.json` file
+- Go to https://cloud.google.com/docs/authentication/getting-started, get your credentials and put them in the `key.json` file
 - Install the dependencies with `npm i`
 - You will need to install [SoX](http://sox.sourceforge.net/)
     - MacOS
