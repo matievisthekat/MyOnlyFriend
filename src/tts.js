@@ -26,7 +26,6 @@ async function tts(text = "no text provided") {
   // Write the binary audio content to a local file
   const writeFile = util.promisify(fs.writeFile);
   await writeFile("response.mp3", response.audioContent, "binary");
-  console.log("Audio content written to file: output.mp3");
 
   await exec("/usr/bin/python src/play.py");
 }
