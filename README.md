@@ -1,4 +1,4 @@
-# VirtualFriend
+# MyOnlyFriend
 Made with Node.JS, Google APIs, Python 3.8 and immense lonelyness. This program allows you to speak to your computer via a microphone and receive a "human-like" response. The current accent is a British male but that can be changed easily. It uses [Google Cloud Text to Speech](https://cloud.google.com/text-to-speech), [Google Cloud Seech to Text](https://cloud.google.com/speech-to-text), [node-record-lpcm-16](https://www.npmjs.com/package/node-record-lpcm16) and [playsound](https://pypi.org/project/playsound/)
 
 ## Using it yourself
