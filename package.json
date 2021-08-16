@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/speech": "^4.1.1",
+    "@google-cloud/speech": "^4.5.2",
     "@google-cloud/storage": "^5.1.2",
-    "@google-cloud/text-to-speech": "^3.0.1",
     "cleverbot-free": "^1.1.6",
+    "@google-cloud/text-to-speech": "^3.2.2",
     "node-audiorecorder": "^2.2.0",
     "node-record-lpcm16": "^1.0.1",
     "yargs": "^15.4.1"
