@@ -16,6 +16,6 @@
     "cleverbot-free": "^1.0.4",
     "node-audiorecorder": "^2.2.0",
     "node-record-lpcm16": "^1.0.1",
-    "yargs": "^15.4.1"
+    "yargs": "^18.0.0"
   }
 }
